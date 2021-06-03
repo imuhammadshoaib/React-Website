@@ -5,7 +5,6 @@
     animation: MoveUpDown 1s linear infinite;
     position: relative;
   }
-  
   @keyframes MoveUpDown {
     0%, 100% {
       top: 10px;

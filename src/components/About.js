@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-
+import Common from './Common';
+import heroImage from '../img/hero.png';
 class About extends Component{
 
     render(){
         return(
-            <div className="container">
-                <h1 className="text-center">Welcome About</h1>
-            </div>
+            <Common
+                name="About Us"
+                imgSrc={heroImage}
+                visit="/services"
+                btnName="About Us"
+            />
         )
     }
 
